@@ -146,7 +146,7 @@ def main():
     # Config CSV: Use arg if provided, else default to 'data/items.csv'
     config_path = args.config
     if not config_path:
-        config_path = 'data/items.csv'
+        config_path = 'data/items_to_be_removed.csv'
         if not os.path.exists(config_path):
              logger.error(f"Default config file not found at '{config_path}' and no --config arg provided.")
              sys.exit(1)
@@ -277,4 +277,5 @@ def main():
     logger.info("Process finished successfully.")
 
 if __name__ == "__main__":
+
     main()
