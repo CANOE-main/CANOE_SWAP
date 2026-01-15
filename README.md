@@ -2,7 +2,6 @@
 
 <img src="./assets/CANOE_SWAP.png" alt="CANOE SWAP Logo" width="300"/>
 
-# CANOE SWAP
 ### Database Merge & Cleanup Utility
 
 </div>
